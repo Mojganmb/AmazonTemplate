@@ -12,17 +12,12 @@ header{
    align-items: center;
    justify-content: space-between;
 }
-.childheader{            
-    /* display:inline-block ; */
-}
+
 .thhover:hover{
     color: orange;    
     border:solid white 1px;
 }
-#logo{
 
-    
-}
 #search{
     display: flex;
     align-items: center;
@@ -96,11 +91,7 @@ header{
     align-items: center;
 
 }
-.category{
-    /* border-right: solid gray; */
-    /* padding: 10px 20px; */
-    /* margin-left: 10px; */
-}
+
 nav{
     border-left: solid gray;
     padding-left:10px 20px;
