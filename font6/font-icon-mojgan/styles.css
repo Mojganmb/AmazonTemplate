@@ -71,3 +71,48 @@
 .m-bars:before {
   content: "\6b";
 }
+.m-reorder-square-line:before {
+  content: "\6c";
+}
+.m-reorder-square:before {
+  content: "\6d";
+}
+.m-list:before {
+  content: "\6e";
+}
+.m-thumbnails-large:before {
+  content: "\6f";
+}
+.m-location:before {
+  content: "\70";
+}
+.m-pin-map:before {
+  content: "\71";
+}
+.m-search:before {
+  content: "\72";
+}
+.m-search-1:before {
+  content: "\73";
+}
+.m-home-1:before {
+  content: "\74";
+}
+.m-home:before {
+  content: "\75";
+}
+.m-home-house-streamline:before {
+  content: "\76";
+}
+.m-angle-right:before {
+  content: "\77";
+}
+.m-angle-left:before {
+  content: "\78";
+}
+.m-angle-up:before {
+  content: "\79";
+}
+.m-angle-down:before {
+  content: "\7a";
+}

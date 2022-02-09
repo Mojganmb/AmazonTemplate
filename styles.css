@@ -98,7 +98,8 @@ header{
 }
 .category{
     /* border-right: solid gray; */
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    /* margin-left: 10px; */
 }
 nav{
     border-left: solid gray;
@@ -114,6 +115,7 @@ nav{
     color: orange;    
     border:solid white 1pt;
 }
+
 .category:hover{
     color: orange;    
     border:solid white;
@@ -129,8 +131,38 @@ nav{
 main{
     background-color: white;
     height: 800px;
-
+    padding: 10px 70px;
 }
+ul{
+    list-style: none;
+}
+.icon-cat{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: lightsalmon;
+    border-radius: 50%;    
+    /* font-size: 18pt; */
+}
+.category-list{
+    padding: 0px;
+}
+.category-list li{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.category-list li div{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    /* justify-content: space-between; */
+}
+.category-list li div span:nth-child(2){
+    margin-left: 10px;
+}
+
 body{
     margin: 0;
 }
