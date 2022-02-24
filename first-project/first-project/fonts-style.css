@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Zahra ;
+    src: url("fonts/sansser-if/Microsoft_Sans_Serif_V2.ttf"),
+        url("fonts/sansser-if/Microsoft_Sans_Serif_V2.eot"),
+        url("fonts/sansser-if/Microsoft\ Sans\ Serif\ V2.woff"),
+        url("fonts/sansser-if/Microsoft\ Sans\ Serif\ V2.woff2");
+}
+
+@font-face {
+    font-family: sfsdf ;
+    src: url("fonts/sansser-if/Microsoft_Sans_Serif_V2.ttf"),
+        url("fonts/sansser-if/Microsoft_Sans_Serif_V2.eot"),
+        url("fonts/sansser-if/Microsoft\ Sans\ Serif\ V2.woff"),
+        url("fonts/sansser-if/Microsoft\ Sans\ Serif\ V2.woff2");
+}

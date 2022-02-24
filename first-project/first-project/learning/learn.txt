@@ -1,0 +1,40 @@
+css:
+in line: into tags, style atribut, 
+in sheet: in sheet , style tag
+out sheet: out sheet , style file
+
+////////////////////////////
+
+display:
+
+inline: span---> دنبال هم , طول و عرض نمیگیره
+block:  div--> یک بلوک , طول و عرض میگیره
+inline-block: input button -----> دنبال هم , طول و عرض میگیره
+
+flex:
+justify-content
+align-items
+/////////////////////////////
+spacing:
+
+padding
+margin
+
+///////////////////////
+positions
+
+static: default ---> یک فضا رو اشغال میکنه
+relative:  یک فضا رو اشغال میکنه----> top , left, right, bottom  میگیره
+absolute: فضا رو اشغال نمیکنه ----> top , left نسبت به  
+fixed: فضا رو اشغال نمیکنه ---> top , left نسبت به body
+
+
+sticky: relativeاول , fixed
+///////////////////////////
+
+git:
+add
+commit
+push
+
+/////////////////
