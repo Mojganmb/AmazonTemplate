@@ -2,7 +2,8 @@ header{
     background-color: white; 
     height: 15%;
     color: white; 
-
+    position: fixed;
+    width: 100%;
 }
 
 #top-header{
@@ -22,6 +23,7 @@ header{
     display: flex;
     align-items: center;
     padding: 0 10px;
+
 }
 #search button{
     border: 3px solid orange;
@@ -56,25 +58,43 @@ header{
 }
 
 #icons{
-    width: 20%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #signin{
-    width: 50%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;    
+}
+#signinfont{
+    font-size: 40px;
+}
+
+#Myorders{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#Myordersfont{
+    font-size: 40px;
+    margin-right: 5px;
+}
+#cart{
+    
+    margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.orders{
-    width: 40px;
-    height: 40px;
-    background-image: url("icons/alibabaPic.png");
-    background-position: -10px -180px;
-}
-#cart{
+#cartfont{    
     font-size: 25pt;
+    margin-right: 5px;
 }
 
 
@@ -109,8 +129,30 @@ nav{
 
 .category:hover{
     color: orange;    
-    border:solid white;
 }
+.category{
+    width:150px;    
+}
+
+.category:hover .allcategory{
+    display: block;
+    background-color: #232f3e;
+}
+.allcategory{
+    display: none;
+    position: absolute;
+    top: 25 px;  
+}
+
+.category-link{
+    text-decoration:none ;
+    color: white;
+    display: block;
+}
+.category-link:hover{
+    color: orange;     
+}
+
 .right-bh{
     align-items: center;
     justify-content: space-between;
@@ -123,6 +165,7 @@ nav{
     display: flex;
     /*padding: 20px */;
     background-color: white;
+    margin-top: 135px;
 }
 .slider{
     width: 50%;

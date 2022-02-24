@@ -116,3 +116,15 @@
 .m-angle-down:before {
   content: "\7a";
 }
+.m-users-outline:before {
+  content: "\41";
+}
+.m-sort:before {
+  content: "\42";
+}
+.m-ios-pricetags-outline:before {
+  content: "\43";
+}
+.m-money:before {
+  content: "\44";
+}
