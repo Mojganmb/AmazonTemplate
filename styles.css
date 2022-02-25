@@ -128,7 +128,8 @@ nav{
 }
 
 .category:hover{
-    color: orange;    
+    color: orange;
+    border:solid white 1px;    
 }
 .category{
     width:150px;    
@@ -150,7 +151,8 @@ nav{
     display: block;
 }
 .category-link:hover{
-    color: orange;     
+    color: orange; 
+    border:solid white 1px;    
 }
 
 .right-bh{
@@ -165,11 +167,43 @@ nav{
     display: flex;
     /*padding: 20px */;
     background-color: white;
-    margin-top: 135px;
+    margin-top: 150px;
+}
+.left-m{
+    text-decoration:none ;
+    color: black;
+    display: block;
+    margin-left: 5px;
+}
+.left-m:hover{
+    color: orange;    
+    border:solid white 1px;
 }
 .slider{
     width: 50%;
+    position: relative;
 }
+.slider:hover .slidearrow{
+    /* display: inline; */
+}
+.slidearrow{
+    font-size: 50px;
+    background-color: #c8c4c44d;
+    color: white;
+    padding: 8px 150px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    font-weight: bold;
+    /* display: none; */
+}
+.preslide{
+    left: 0;
+}
+.nextslide{
+    right: 0;
+}
+
 .slider img{
     width: 100%;
     height:300px;
