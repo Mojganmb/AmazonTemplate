@@ -15,13 +15,17 @@ header{
 }
 
 #top-header{
-   background-color: #131921; 
+   background-color: #7b96ba; 
+   background-image: linear-gradient(to right, rgb(12, 91, 164) , rgb(233, 237, 253));
    padding: 20px 40px;
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
-
+.thhover{
+    width: 150px;
+    height: 100px;
+}
 .thhover:hover{
     color: orange;    
     border:solid white 1px;
@@ -83,7 +87,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 20px;    
+    margin-left: 20px; 
+    color: #0555b7;   
 }
 #signinfont{
     font-size: 40px;
@@ -94,11 +99,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
+    color: #0555b7; 
 }
 #Myordersfont{
     font-size: 40px;
     margin-right: 5px;
+
 }
 #cart{
     
@@ -106,10 +112,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    color: #0555b7; 
 }
 #cartfont{    
     font-size: 25pt;
     margin-right: 5px;
+   
 }
 
 
@@ -184,7 +192,7 @@ nav{
     display: flex;
     padding: 20px ;
     /* background-color: white; */
-    margin-top: 150px;
+    margin-top: 185px;
 }
 .left-m{
     text-decoration:none ;
@@ -244,8 +252,8 @@ nav{
 }
 main{
     background-color: white;
-    height: 500px;
-    padding: 10px;
+    height: 900px;
+    padding: 20px;
 }
 ul{
     list-style: none;
@@ -323,7 +331,7 @@ ul{
 }
 .share{
     font-size: 30px;
-    margin-top: 300px;
+    margin-top: 350px;
     width: 35px; 
     height: 35px;
     border: solid #d0d1d1;
@@ -367,20 +375,45 @@ body{
 }
 
 footer{
-    background-color: white;
+    background-color: #37475a; ;
     height: 300px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+dt{
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight:bold ;
+    margin-bottom: 15px;
+}
+dd{
+    margin-left: 80px; 
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+dd a{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    transition: all .5s;
+}
+dd:hover a{
+    color: rgb(20, 169, 255);
+    font-style: italic;
+}
+#left-footer{
+
 
 }
-#top-footer{
-   background-color: #37475a; 
+ #middle-footer{
+
 }
-#middle-footer{
-   background-color: #232f3e; 
-}
-#bottom-footer{
-   background-color: #131a22; 
-}
+#right-footer{
+
+} 
 @keyframes changePositionLeft {
     from{ left:-30px;}
     to{left:0;}
