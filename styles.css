@@ -1,9 +1,17 @@
+
+@import url("font-style.css");
+
+*{
+    font-family: mojgan;
+}
+
 header{
     background-color: white; 
     height: 15%;
     color: white; 
     position: fixed;
     width: 100%;
+    z-index: 500;
 }
 
 #top-header{
@@ -32,10 +40,17 @@ header{
     width: 40px;
     height: 42px;
     padding: 0;
+    transition: all 20s;
+}
+#search:hover button{
+    cursor: pointer;
+    background-color: burlywood;
+
 }
 #search button img{
     width: 100%;
     height: 100%;
+
 }
 #select{
     background-color: lightgray;
@@ -132,7 +147,8 @@ nav{
     border:solid white 1px;    
 }
 .category{
-    width:150px;    
+    width:150px;  
+    transition: all 2s;  
 }
 
 .category:hover .allcategory{
@@ -149,6 +165,7 @@ nav{
     text-decoration:none ;
     color: white;
     display: block;
+    transition: all 2s;
 }
 .category-link:hover{
     color: orange; 
@@ -165,8 +182,8 @@ nav{
 }
 .category-banner{
     display: flex;
-    /*padding: 20px */;
-    background-color: white;
+    padding: 20px ;
+    /* background-color: white; */
     margin-top: 150px;
 }
 .left-m{
@@ -182,36 +199,53 @@ nav{
 .slider{
     width: 50%;
     position: relative;
+    overflow: hidden;
 }
-.slider:hover .slidearrow{
-    /* display: inline; */
-}
-.slidearrow{
-    font-size: 50px;
+
+.slide-arrow{
+    font-size: 40px;
+    font-weight: bolder;
     background-color: #c8c4c44d;
     color: white;
-    padding: 8px 150px;
+    padding: 8px 0;
     cursor: pointer;
     position: absolute;
     top: 40%;
-    font-weight: bold;
     /* display: none; */
+    /* visibility: hidden; */
+    transition: all 3s;
+    /* opacity: 0; */
 }
-.preslide{
-    left: 0;
-}
-.nextslide{
-    right: 0;
+.slider:hover .slide-arrow{
+    /* display: inline; */
+    /* visibility: visible; */
+    color: #1c242e;
+    /* opacity: 1; */
 }
 
+/* .preslide{
+    left: 0;    
+}
+
+.nextslide{
+    right: 0;   
+}  */
+.slider:hover .preslide{
+    left :0;
+    animation: changePositionLeft 1s alternate;     
+}
+.slider:hover .nextslide{
+    right: 0;
+    animation: changePositionRight 1s alternate;   
+}
 .slider img{
     width: 100%;
     height:300px;
 }
 main{
-    background-color: #edf7fb;
-    height: 800px;
-    padding: 10px 70px;
+    background-color: white;
+    height: 500px;
+    padding: 10px;
 }
 ul{
     list-style: none;
@@ -223,6 +257,26 @@ ul{
     background-color: lightsalmon;
     border-radius: 50%;    
     /* font-size: 18pt; */
+}
+.slidecirclemain{
+    width: 30%;
+    height: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.slidecircle{
+    width: 5%;
+    height: 68%;
+    border: solid 1px ;
+    border-radius: 50%;
+    background-color: #6e5f5e; 
+    transition: all 2s;    
+}
+.slidecircle:hover{
+    cursor: pointer;
+    background-color:rgb(253, 227, 227) ;
 }
 .category-list{
     padding: 0px;
@@ -243,6 +297,70 @@ ul{
 .category-list li div span:nth-child(2){
     margin-left: 10px;
 }
+.deals{
+    width: 27%;
+    padding: 5px 20px;
+}
+
+.deals h3{
+    margin-left: 40%;
+    font-size: larger;
+
+}
+.deals:hover h3{
+    transform: scale(1.5,1.5);
+}
+.deals img{
+    margin-left: 20%;
+
+}
+.deals:hover {
+    cursor: pointer;
+    color: orange;
+    /* transform: rotate(5deg); */
+    transform: skew(-10deg);
+    /* transform: scale(2,3); */
+}
+.share{
+    font-size: 30px;
+    margin-top: 300px;
+    width: 35px; 
+    height: 35px;
+    border: solid #d0d1d1;
+    background-color: #c5c5c5;
+    /* visibility: hidden; */
+    position: fixed;
+    right: 20px;
+    overflow: hidden;
+    transition: width 0.7s;
+}
+
+.share:hover{
+  width: 200px;
+  display: inline-block;
+  /* visibility: visible; */
+}
+.m-share{
+    /* visibility: visible; */
+    border: solid #d0d1d1;
+    background-color: #c5c5c5;
+}
+.m-facebook-squared:hover{
+    cursor: pointer;
+    color: rgb(5, 128, 252); 
+}
+.m-twitter:hover{
+    cursor: pointer;
+    color: rgb(5, 128, 252); 
+}
+.m-gplus-circled:hover{
+    cursor: pointer;
+    color: rgb(5, 128, 252); 
+}
+.m-instagram:hover{
+    cursor: pointer;
+    color:rgb(5, 128, 252); 
+}
 
 body{
     margin: 0;
@@ -262,4 +380,12 @@ footer{
 }
 #bottom-footer{
    background-color: #131a22; 
+}
+@keyframes changePositionLeft {
+    from{ left:-30px;}
+    to{left:0;}
+}
+@keyframes changePositionRight {
+    from{ right:-30px;}
+    to{right:0;}
 }

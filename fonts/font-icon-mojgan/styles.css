@@ -39,92 +39,116 @@
 }
 
 .m-arrow-left:before {
-  content: "\61";
+  content: "\e000";
 }
 .m-arrow-right:before {
-  content: "\62";
+  content: "\e001";
 }
 .m-commenting:before {
-  content: "\63";
+  content: "\e002";
 }
 .m-chevron-up:before {
-  content: "\64";
+  content: "\e003";
 }
 .m-chevron-right:before {
-  content: "\65";
+  content: "\e004";
 }
 .m-chevron-left:before {
-  content: "\66";
+  content: "\e005";
 }
 .m-chevron-down:before {
-  content: "\67";
+  content: "\e006";
 }
 .m-user:before {
-  content: "\68";
+  content: "\e007";
 }
 .m-user-1:before {
-  content: "\69";
+  content: "\e008";
 }
 .m-cart-plus:before {
-  content: "\6a";
+  content: "\e009";
 }
 .m-bars:before {
-  content: "\6b";
+  content: "\e00a";
 }
 .m-reorder-square-line:before {
-  content: "\6c";
+  content: "\e00b";
 }
 .m-reorder-square:before {
-  content: "\6d";
+  content: "\e00c";
 }
 .m-list:before {
-  content: "\6e";
+  content: "\e00d";
 }
 .m-thumbnails-large:before {
-  content: "\6f";
+  content: "\e00e";
 }
 .m-location:before {
-  content: "\70";
+  content: "\e00f";
 }
 .m-pin-map:before {
-  content: "\71";
+  content: "\e010";
 }
 .m-search:before {
-  content: "\72";
+  content: "\e011";
 }
 .m-search-1:before {
-  content: "\73";
+  content: "\e012";
 }
 .m-home-1:before {
-  content: "\74";
+  content: "\e013";
 }
 .m-home:before {
-  content: "\75";
+  content: "\e014";
 }
 .m-home-house-streamline:before {
-  content: "\76";
+  content: "\e015";
 }
 .m-angle-right:before {
-  content: "\77";
+  content: "\e016";
 }
 .m-angle-left:before {
-  content: "\78";
+  content: "\e017";
 }
 .m-angle-up:before {
-  content: "\79";
+  content: "\e018";
 }
 .m-angle-down:before {
-  content: "\7a";
+  content: "\e019";
 }
 .m-users-outline:before {
-  content: "\41";
+  content: "\e01a";
 }
 .m-sort:before {
-  content: "\42";
+  content: "\e01b";
 }
 .m-ios-pricetags-outline:before {
-  content: "\43";
+  content: "\e01c";
 }
 .m-money:before {
-  content: "\44";
+  content: "\e01d";
+}
+.m-circle:before {
+  content: "\e01e";
+}
+.m-circle-stroked:before {
+  content: "\e01f";
+}
+.m-share:before {
+  content: "\e020";
+}
+.m-facebook-squared:before {
+  content: "\e021";
+}
+.m-twitter:before {
+  content: "\e022";
+}
+.m-gplus-circled:before {
+  content: "\e023";
+}
+.m-linked-in:before {
+  content: "\e024";
+}
+.m-instagram:before {
+  content: "\e025";
 }
