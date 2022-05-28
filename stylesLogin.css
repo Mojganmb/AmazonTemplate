@@ -1,0 +1,147 @@
+
+ @import url("font-style.css"); 
+
+*{
+    font-family: "mojgan";
+}
+/* @font-face {
+    font-family: "mojgan"; 
+    src: url("fonts/sansserif/SansSerif.ttf");  
+} */
+
+header{
+    background-color: white; 
+    height: 15%;
+    color: white; 
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+#top-header{
+   background-color: #7b96ba; 
+   background-image: linear-gradient(to right, rgb(12, 91, 164) , rgb(233, 237, 253));
+   padding: 20px 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+#border{
+    margin-top: 180px;
+    display: block ;
+    border:solid rgb(184, 184, 184) 2px; 
+    border-radius: 5%;
+    width: 500px;
+    height: 400px;
+    margin-left: 500px;
+    box-shadow: 0 0 10px #ddd;
+    padding: 20px 26px!important;  
+
+}
+h1{
+    font-family: mojgan;
+}
+label{
+    font-family: mojgan;
+}
+#top-header img{
+    width: 150px;
+    height: 100px;
+}
+main{
+    background-color: white;
+    height: 700px;
+    padding: 20px;
+}
+
+
+
+
+@keyframes changePositionLeft {
+    from{ left:-30px;}
+    to{left:0;}
+}
+@keyframes changePositionRight {
+    from{ right:-30px;}
+    to{right:0;}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #top-header{ 
+        padding: 15px;
+        flex-wrap: wrap;
+     }  
+     #search{
+         order: 2;
+         width: 100%;
+     } 
+     #icons{
+        width: 70%;
+        font-size: 22px;
+    }
+    #bottom-header{
+        padding: 0 ;
+        font-size: 22px;
+    }
+    main{
+        padding: 80px 10px;
+        height: 500px;
+        overflow-x: scroll;
+    }
+    .slider {
+        visibility: hidden;        
+        }
+    footer{
+        background-color: #37475a; ;
+        height: 300px;
+        width: 100%;
+        padding-left: 0px;
+        overflow-x: scroll;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (mmax-width: 768px) {
+    #top-header{ 
+        padding: 15px;
+        flex-wrap: wrap;
+     }  
+     #search{
+         order: 2;
+         width: 100%;
+     } 
+     #icons{
+        width: 70%;
+        font-size: 22px;
+    }
+    #bottom-header{
+        padding: 0 ;
+        font-size: 22px;
+    }
+    main{
+        padding: 80px 10px;
+        height: 500px;
+        overflow-x: scroll;
+    }
+    .slider {
+        visibility: hidden;        
+        }
+    footer{
+        background-color: #37475a; ;
+        height: 300px;
+        width: 100%;
+        padding-left: 0px;
+        overflow-x: scroll;
+        }   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
